@@ -62,7 +62,7 @@ public class AdminForgotPassword extends Activity
 		t4 = (EditText) findViewById(R.id.editText2);
 		
 		// Add your mail Id and Password
-        sender = new GMailSender("devkochhar99@gmail.com", "rjaDr@9253134933");
+        sender = new GMailSender("devkochhar99@gmail.com", "password");
 
    StrictMode.ThreadPolicy policy = new StrictMode.ThreadPolicy.
            Builder().permitAll().build();
